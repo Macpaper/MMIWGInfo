@@ -1,0 +1,133 @@
+body,
+html {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  color-scheme: light dark;
+}
+
+body {
+  font-family: system-ui;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-inline: auto;
+  padding: 0;
+  width: min(125ch, 100% - 1rem);
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: indianred;
+  margin: 0;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  /* background-color: LightCoral; */
+  margin: 1em;
+  padding: 1em;
+  border: .25em solid indianred;
+  border-radius: .3em;
+}
+
+.about-title {
+  font-size: 2em;
+  align-items: center;
+  margin-top: 1em;
+  /* background-color: gray; */
+  /* border: .1em solid red; */
+  font-weight: 900;
+}
+
+.about-content {
+  flex: 1;
+  margin-top: 1em;
+  /* background-color: LightCoral; */
+  font-size: 1.25em;
+}
+
+.about-picture {
+  /* background-color: violet; */
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+body {
+  background-color: #444444;
+}
+
+.container-section {
+  /* background-color: LightCoral; */
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: .25em solid indianred;
+  border-radius: .3em;
+}
+
+.category {
+  font-size: 2.5em;
+  font-weight: bold;
+  /* color: black; */
+  /* border: .05em solid indianred; */
+  /* border-radius: .25em; */
+  /* background-color: Gold; */
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: black; */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  flex: 1;
+  /* background-color: blue; */
+}
+
+.content {
+  /* background-color: red; */
+  flex: 1;
+}
+
+.column-title {
+  font-size: 2em;
+  font-weight: bold;
+}
